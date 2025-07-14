@@ -1,0 +1,61 @@
+# === Maven build output ===
+target/
+**/target/
+
+# === IDEs ===
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+**/*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# VS Code
+.vscode/
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Environment and backup files ===
+*.env
+*.bak
+*.tmp
+*.swp
+
+# === Compressed files ===
+*.zip
+*.tar.gz
+*.rar
+
+# === Java specific ===
+*.class
+
+# === Node modules if any frontend exists ===
+node_modules/
+dist/
+build/
+
+# === Coverage / test reports ===
+coverage/
+**/coverage/
+**/jacoco.exec
+
+# === Mac system files ===
+.AppleDouble
+.LSOverride
+Icon?
+
+# === Windows system files ===
+Desktop.ini
+
